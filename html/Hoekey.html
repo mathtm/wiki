@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Hoekey</title>
+<meta http-equiv="Content-Type" content="text/html; charset=cp936">
+</head>
+<body>
+
+<h1 id="toc_1">我的Hoeky 配置</h1>
+
+<pre class="brush:html">
+;  Simple Example HoeKey config
+;
+; Key Modifiers:
+; ~=windows, _=shift, ^=ctrl, @=alt
+
+=Rem|-- General --
+=Rem|-- Volume --
+
+^@1=Volume||0   	; Mute
+^@2=Volume||33  	; 33%
+^@3=Volume||66  	; 66%
+; ^@4=Volume||100		; Full
+;^@up=Msg|Progman|793|0|655360 		; 提高音量
+;^@down=Msg|Progman|793|0|589824 	; 降低音量
+
+;~4=Transparency			; Set current window to be
+
+=AlwaysOnTop			; transparent and on top
+
+~end=Hide             ; win+end: hide current window
+;~home=Unhide          ; win+home: show last hidden window
+~Y=Editify            ; show text from window for copy
+
+
+
+=Rem|-- My favourite program
+
+~N=Run|"X:\Program Files\notepad2\Notepad2.exe"|3		; Notepad2
+
+;~C=Run|cmd.exe			; Command shell
+~_S=Run|cmd.exe|||%c		; Command shell in current directory
+
+
+~S=Run|https://www.google.com/search?q=%s 			;google search
+~_E=Run|explorer.exe %c		; Explorer in current directory
+
+
+
+^@+=Run|C:\cloud\tools\FreeCommander\FreeCommander.exe		;FreeCommander
+^@-=Run|http://dict.bing.com.cn/				;engkoo
+^@0=Run|"D:\"
+^@9=Run|"X:\"
+^@8=Run|"X:\Program Files\Vim\vim73\gvim.exe"|3					;Vim
+
+^@[=Run|"X:\Program Files\Youdao\Dict\RunDict.exe"				;Dict
+^@;=Run|C:\cloud\tools\EvernotePortable\App\Evernote\Evernote.exe|3		;evernote
+;^@'=Run|C:\Program Files\Microsoft Office\Office14\ONENOTE.EXE			;onenote
+
+
+^@E=Run|C:\cloud\tools\everything\everything.exe|3		;everything
+^@I=Run|"X:\Program Files\Maxthon\Maxthon.exe"			;Maxthon
+;^@I=Run|"X:\Program Files\Maxthon2\Maxthon.exe"		;Maxthon2
+
+^@H=Run|C:\Users\austen\AppData\Local\Google\Chrome\Application\chrome.exe	;Chrome
+^@l=Run|http://www.google.com							;google
+
+
+;^@Q=Run|"X:\Program Files\Tencent\QQIntl\Bin\QQ.exe"			;QQ
+^@Q=Config			; Configure HoeKey
+^@W=Run|"X:\Program Files\TTPlayer\TTPlayer.exe"	;TTPlayer
+^@T=Run|"X:\Program Files\fterm-smth\FTERM.exe"		;Fterm
+
+^@U=Run|""X:\Program Files\Uucall\QQVoice.exe""		;UUCall
+^@Y=Run|"X:\Program Files\duowan\yy\Start.exe"		;YYTalk
+
+
+
+=Rem|-- Misc --
+;; Start=MsgBox|Welcome to HoeKey!\r\n\r\n\r\nPress Windows+Q to open the configuration window.	; Show welcome message on startup
+
+
+</pre>
+
+</body>
+</html>

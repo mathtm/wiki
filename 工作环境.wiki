@@ -1,0 +1,47 @@
+# 在多台机器之间构建一致的工作环境
+
+关键词: Dropbox Subst Hoekey Everything
+
+这儿借用了当前最热的“云”一词，但并无那么神秘，说白了就是在多台计算机搭建一个一致的办公环境。拿到一台新Windows PC，最快完成最常用工具软件和文件环境的配置。
+
+日常工作需要的资源大致有这么以下几类：
+1. 大型软件，包括Chrome，Office等必须本机安装的软件；
+1. 绿色软件，包括Hoekey，everything, FreeCommander, Vim, PicPick, fterm, notepad2, putty, XnView, WinRAR等小型软件；
+1. 文件，收藏的书籍，个人照片，资料等文件；
+2. 文字，网页资料，个人信息等不适合以文件形式保存的资料；
+
+
+拿到一台新机器，安装完Windows之后，要做的事情就是下面几件：
+1. 安装Chrome，获得浏览器环境；
+2. 安装Dropbox，迅速获得自己的文件和常用软件；
+3. 完成系统配置，把dropbox目录映射为X盘，运行Hoekey并放入startup。
+
+完成以上三步，基本上一个个人独特的办公环境就安装好了。
+
+
+具体实施办法
+## Dropbox同步
+一般创建一个目录，d:\cloud\dropbox 作为工作环境的根目录，在下面设置Program Files, books, backup, photos, study, temp等目录，日常工作的软件（大部分是绿色软件）和文档都放在其中。
+
+## Subst映射磁盘
+运行 subst X: d:\cloud\dropbox 把这个目录映射为Windows下的X盘。
+在注册表中增加键值，每次开机自动映射。
+
+>Windows Registry Editor Version 5.00
+> 
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+
+>"SubstX"="subst X: \"d:\\cloud\\dropbox\""
+
+subst是windows下自带的命令行工具，可以把目录映射为磁盘分区，类似的工具还有mklink等。详细情况可以参考微软的Sysinternal Suits工具套件。
+
+## Hoekey配置快捷键
+大部分工具软件都放在了 X:\Program Files\目录下，从而可以做一套统一的快捷方式，指向X盘下的对应exe文件即可。作为键盘控，我用了Hoekey来实现软件的快捷启动。
+快捷键软件最流行的是AutoHotKey，功能非常强大，也比较庞大。
+我一直在用一款软件，很小巧也够用了。
+
+
+1. [[Everything]]文件名普遍搜索
+1. [[Evernote]] 信息收集箱
+1. Google Keep
+

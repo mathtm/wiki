@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>在Samsung ARM Chromebook中安装Ach Linux</title>
+<meta http-equiv="Content-Type" content="text/html; charset=cp936">
+</head>
+<body>
+
+
+<h1 id="toc_1">在Samsung ARM Chromebook中安装Ach Linux</h1>
+
+<p>
+需要的东西
+</p>
+<ol>
+<li>
+Samsung ARM Chromebook
+
+<li>
+存储卡（CF卡/SD卡/U盘）一个，空间大于 7.8G。
+
+</ol>
+
+
+
+<p>
+需要注意的是，Sandisk 的8G CF卡空间只有 7.4G，达不到要求
+</p>
+
+<ul>
+<li>
+安装系统
+
+<ul>
+<li>
+下载archlinuxar.org的最新chromebook文件系统镜像
+<pre class="brush:html">
+
+
+</pre>
+
+</ul>
+</ul>
+
+
+<p>
+需要注意的是，当前archlinuxarm.org官方提供的镜像文件还不支持U盘启动，只能用CF/SD卡。
+该镜像文件大小为8G (8,068,792,320字节)，市面上Sandisk等8G CF卡空间少了大约200M，无法直接写入镜像。
+采用16G或32G大小的CF卡安装系统后，可用空间也仅为8G，如果想把剩下的空间也启用上，必须修改分区表，否则系统无法启动。
+</p>
+
+
+<p>
+该镜像文件打包日期是 2012-Nov
+</p>
+
+<ul>
+<li>
+写image文件到SD卡
+<pre class="brush:html">
+
+
+</pre>
+
+</ul>
+
+<ul>
+<li>
+更新软件包
+
+<ul>
+<li>
+下载需要更新的软件包
+
+</ul>
+</ul>
+
+<pre class="brush:html">
+
+
+</pre>
+
+<ul>
+<li>
+更新软件包
+
+</ul>
+
+<p>
+有两个问题：
+1. filesystem, glibc 两个包需要同时更新；
+最新的filesystem 把/bin, /sbin/ /usr/sbin 都改为到 /usr/bin的符号链接，但老版本还有n多程序都在老目录下。
+</p>
+
+<p>
+pacman -Qqo /bin/* /sbin/* /usr/sbin/* 
+把所有查到的包都更新一遍，除了  coreutils, bash, filesystem, glibc
+</p>
+
+<p>
+之所以不是把所有的包都升级  
+pacman -Su --ignore coreutils, bash, filesystem, glibc
+会把系统搞down
+</p>
+
+
+
+
+<p>
+手工安装 /arch linux
+</p>
+
+</body>
+</html>

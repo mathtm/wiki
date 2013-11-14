@@ -1,0 +1,28 @@
+### NoSQL
+Not Only SQL
+
+适应大数据和新业务的数据库系统，基于传统的关系型数据库(RDBMS)发展而来。
+
+
+原始idea来自google的bigtable，业界最流行的是Hadoop家族的HBase，当前已经有了N多分支，各有适用的场景。
+
+[[Hbase]]
+[[Cassandra]]
+Hypertable
+[[MongoDB]]
+CouchDB
+Tokyo Cabinet / Tyrant
+Berkeley DB
+MemcacheDB
+Redis
+
+Neo4J
+FlockDB
+InfoGrid
+
+db4o
+Versant
+
+Berkeley DB XML
+[[BaseX]]
+

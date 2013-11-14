@@ -1,0 +1,18 @@
+
+# 准备工作
+## SD卡
+
+# 安装
+## 
+按照archlinuxarm.org的指导做就可以了；
+解压缩rootfs到sd卡；
+copy 内核和/boot 内容；
+copy 自己的一些定制化文件；
+reboot
+
+## 配置
+### 修改密码，增加用户austen；
+### 修改mirror.list等文件
+### pacman -Syu 
+### pacman -Syu vim xorg-server xorg-server-utils xterm xf86-video-fbdev chromium
+###

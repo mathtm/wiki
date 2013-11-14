@@ -1,0 +1,20 @@
+# 电子设备盘点
+
+一直喜欢折腾电子设备，当前手头有这么一些设备：
+
+* 台式机一台，Intel G530 CPU, ATI 4830显卡，8G内存，22寸LG显示器，主要用来网页浏览，购物和WoW；
+* 笔记本Acer 4551，AMD P320 CPU，6G内存，64G SSD，HD5650 显卡，14寸屏幕，当前主要是老婆用来写文档，购物；
+* 笔记本Lenovo U310, Intel i3 3220U, 4G内存，13.3屏幕，外出时随身携带办公；
+* 公司配了一台Thinkpad E40，就放在公司当台式机用了；
+* 平板LG L-06C, 双核1G CPU，1G RAM，32G ROM，支持WCDMA 3G，主要用来跟起点小说，看鲜果联播，亚马逊中国的电子书，移动环境check gmail；
+* 电子书Amazon Kindle 3 Keyboard，用来看大部头书，书籍主要来自iKandou和自己收集的txt文本；
+* Nook Simple Touch 6寸安卓电纸书，用来看epub, 网上连载的小说；
+* 手机华为G525，四核CPU，1G RAM，主要用来跟小说，看知乎日报，访问WoW在线拍卖行；
+* 另外会偶尔用老婆的iPad上QQ围棋下棋。 
+
+* Samsung ARM Chromebook，入手一两个月了，前一阵儿一直在折腾安装Arch Linux，计划用来构建一个日常写作环境。用之来梳理自己的想法，从信息消费者向生产者转变。
+
+
+
+
+

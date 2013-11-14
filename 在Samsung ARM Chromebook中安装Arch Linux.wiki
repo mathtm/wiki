@@ -1,0 +1,68 @@
+\toc
+
+= 在Samsung ARM Chromebook中安装Ach Linux =
+
+需要的东西
+# Samsung ARM Chromebook
+# 存储卡（CF卡/SD卡/U盘）一个，空间大于 7.8G。
+
+
+
+需要注意的是，Sandisk 的8G CF卡空间只有 7.4G，达不到要求
+
+* 安装系统
+ - 下载archlinuxar.org的最新chromebook文件系统镜像
+{{{class="brush:html"
+
+
+}}}
+
+
+需要注意的是，当前archlinuxarm.org官方提供的镜像文件还不支持U盘启动，只能用CF/SD卡。
+该镜像文件大小为8G (8,068,792,320字节)，市面上Sandisk等8G CF卡空间少了大约200M，无法直接写入镜像。
+采用16G或32G大小的CF卡安装系统后，可用空间也仅为8G，如果想把剩下的空间也启用上，必须修改分区表，否则系统无法启动。
+
+
+该镜像文件打包日期是 2012-Nov
+
+ - 写image文件到SD卡
+{{{class="brush:html"
+
+
+}}}
+
+* 更新软件包
+ - 下载需要更新的软件包
+
+{{{class="brush:html"
+
+
+}}}
+
+ - 更新软件包
+
+有两个问题：
+1. filesystem, glibc 两个包需要同时更新；
+最新的filesystem 把/bin, /sbin/ /usr/sbin 都改为到 /usr/bin的符号链接，但老版本还有n多程序都在老目录下。
+
+pacman -Qqo /bin/* /sbin/* /usr/sbin/* 
+把所有查到的包都更新一遍，除了  coreutils, bash, filesystem, glibc
+
+之所以不是把所有的包都升级  
+pacman -Su --ignore coreutils, bash, filesystem, glibc
+会把系统搞down
+
+
+
+
+* 手工安装 /arch linux
+准备一张SD卡（或者CF卡+卡套），大于4G即可，建议16G或更大。
+在linux环境下分区。
+
+可以单独找一台linux机器，也可以直接用chromebook。
+我的做法是用一张CF卡启动机器，然后用读卡器把新卡连接到USB接口上。
+这样系统是挂载在 /dev/mmcblk1p3 分区上，需要安装系统的新CF卡是 /dev/sda.
+
+
+
+
