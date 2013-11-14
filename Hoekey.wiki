@@ -1,4 +1,4 @@
-= 我的Hoeky 配置 = 
+= 鎴戠殑Hoeky 閰嶇疆 = 
 
 {{{class="brush:html"
 ;  Simple Example HoeKey config
@@ -13,8 +13,8 @@
 ^@2=Volume||33  	; 33%
 ^@3=Volume||66  	; 66%
 ; ^@4=Volume||100		; Full
-;^@up=Msg|Progman|793|0|655360 		; 提高音量
-;^@down=Msg|Progman|793|0|589824 	; 降低音量
+;^@up=Msg|Progman|793|0|655360 		; 鎻愰珮闊抽噺
+;^@down=Msg|Progman|793|0|589824 	; 闄嶄綆闊抽噺
 
 ;~4=Transparency			; Set current window to be
 

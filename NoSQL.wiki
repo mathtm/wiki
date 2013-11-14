@@ -1,10 +1,10 @@
 ### NoSQL
 Not Only SQL
 
-ÊÊÓ¦´óÊý¾ÝºÍÐÂÒµÎñµÄÊý¾Ý¿âÏµÍ³£¬»ùÓÚ´«Í³µÄ¹ØÏµÐÍÊý¾Ý¿â(RDBMS)·¢Õ¹¶øÀ´¡£
+é€‚åº”å¤§æ•°æ®å’Œæ–°ä¸šåŠ¡çš„æ•°æ®åº“ç³»ç»Ÿï¼ŒåŸºäºŽä¼ ç»Ÿçš„å…³ç³»åž‹æ•°æ®åº“(RDBMS)å‘å±•è€Œæ¥ã€‚
 
 
-Ô­Ê¼ideaÀ´×ÔgoogleµÄbigtable£¬Òµ½ç×îÁ÷ÐÐµÄÊÇHadoop¼Ò×åµÄHBase£¬µ±Ç°ÒÑ¾­ÓÐÁËN¶à·ÖÖ§£¬¸÷ÓÐÊÊÓÃµÄ³¡¾°¡£
+åŽŸå§‹ideaæ¥è‡ªgoogleçš„bigtableï¼Œä¸šç•Œæœ€æµè¡Œçš„æ˜¯Hadoopå®¶æ—çš„HBaseï¼Œå½“å‰å·²ç»æœ‰äº†Nå¤šåˆ†æ”¯ï¼Œå„æœ‰é€‚ç”¨çš„åœºæ™¯ã€‚
 
 [[Hbase]]
 [[Cassandra]]

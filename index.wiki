@@ -1,34 +1,34 @@
 %toc
 
-# Ե��
+# 缘起
 
-�����һ���ʼ�Сվ��ר�������ܽ��Լ���һЩѧϰ�ʼǺ��뷨����ǰ�������ʽ׶Ρ�
+这儿是一个笔记小站，专门用来总结自己的一些学习笔记和想法，当前还是练笔阶段。
 
-[[��Samsung ARM Chromebook�а�װArch Linux]]
+[[在Samsung ARM Chromebook中安装Arch Linux]]
 
-[[ChromeBook + ArchLinux��װ����]]
+[[ChromeBook + ArchLinux安装步骤]]
 
-[[��������]]
+[[工作环境]]
 
-[[Chromebookʹ���ĵ�]]
+[[Chromebook使用心得]]
 
 [[NoSQL]]
 
 
-[[Hoekey]]��һ��ܹ��ϵĿ�ݼ�������ò���Ѿ�ֹͣά���ˣ�Զû��[[Autohotkey]]���С�
-������ǰ��������Ҳû�ж��������Ҳ��һֱû������
+[[Hoekey]]是一款很古老的快捷键软件，貌似已经停止维护了，远没有[[Autohotkey]]流行。
+很早以前就用它，也没有额外的需求，也就一直没更换。
 
 
 
-[[�Ҷ�С˵]]
+[[我读小说]]
 
-�ĵ÷���
+心得分享
 
-[[����Ч������]]
+[[个人效率提升]]
 
-[[��ǰ����]]
+[[售前工作]]
 
-[[�Ŷ���֯]]
+[[团队组织]]
 
 
 

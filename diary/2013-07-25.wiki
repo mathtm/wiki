@@ -1,7 +1,7 @@
 ### 2013-07-25
-Çç ÃÆÈÈ
+æ™´ é—·çƒ­
 
-×òÍíÑÐ¾¿ÁËGithub£¬Markdown£¬VimWiki£¬PandocÏà¹Ø¼¼Êõ¹¤¾ß£¬»¹Ã»×îÖÕ×ö¾ö¶¨²ÉÓÃÊ²Ã´¹¤¾ß¡£
-ÏÖÔÚ±È½ÏÇãÏòÓÚ²ÉÓÃMarkdownµÄÓï·¨ºÍVim»·¾³¡£
+æ˜¨æ™šç ”ç©¶äº†Githubï¼ŒMarkdownï¼ŒVimWikiï¼ŒPandocç›¸å…³æŠ€æœ¯å·¥å…·ï¼Œè¿˜æ²¡æœ€ç»ˆåšå†³å®šé‡‡ç”¨ä»€ä¹ˆå·¥å…·ã€‚
+çŽ°åœ¨æ¯”è¾ƒå€¾å‘äºŽé‡‡ç”¨Markdownçš„è¯­æ³•å’ŒVimçŽ¯å¢ƒã€‚
 
 
