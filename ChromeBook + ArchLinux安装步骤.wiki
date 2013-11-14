@@ -1,18 +1,18 @@
+ï»¿
+# å‡†å¤‡å·¥ä½œ
+## SDå¡
 
-# ×¼±¸¹¤×÷
-## SD¿¨
-
-# °²×°
+# å®‰è£…
 ## 
-°´ÕÕarchlinuxarm.orgµÄÖ¸µ¼×ö¾Í¿ÉÒÔÁË£»
-½âÑ¹Ëõrootfsµ½sd¿¨£»
-copy ÄÚºËºÍ/boot ÄÚÈİ£»
-copy ×Ô¼ºµÄÒ»Ğ©¶¨ÖÆ»¯ÎÄ¼ş£»
+æŒ‰ç…§archlinuxarm.orgçš„æŒ‡å¯¼åšå°±å¯ä»¥äº†ï¼›
+è§£å‹ç¼©rootfsåˆ°sdå¡ï¼›
+copy å†…æ ¸å’Œ/boot å†…å®¹ï¼›
+copy è‡ªå·±çš„ä¸€äº›å®šåˆ¶åŒ–æ–‡ä»¶ï¼›
 reboot
 
-## ÅäÖÃ
-### ĞŞ¸ÄÃÜÂë£¬Ôö¼ÓÓÃ»§austen£»
-### ĞŞ¸Ämirror.listµÈÎÄ¼ş
+## é…ç½®
+### ä¿®æ”¹å¯†ç ï¼Œå¢åŠ ç”¨æˆ·austenï¼›
+### ä¿®æ”¹mirror.listç­‰æ–‡ä»¶
 ### pacman -Syu 
 ### pacman -Syu vim xorg-server xorg-server-utils xterm xf86-video-fbdev chromium
 ###
